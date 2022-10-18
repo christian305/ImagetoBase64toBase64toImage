@@ -1,0 +1,7 @@
+﻿<Application
+    x:Class="base64toRealm.UWP.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:base64toRealm.UWP">
+
+</Application>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="base64toRealm.Views.Base64buttton">
+    <ScrollView>
+        <StackLayout>
+            <Image x:Name="PhotoImage" />
+            <Button x:Name="CameraButton" BackgroundColor="black" TextColor="White" Text="Take Photo"/>
+            <Label Text="This is the middle"/>
+            <Image x:Name="TestPhotoImage"/>
+            <Button x:Name="Base64toImage" BackgroundColor="Black" TextColor="White" Text="Click Me" Clicked="ClickedfromBase"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
