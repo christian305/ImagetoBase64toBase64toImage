@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Diagnostics.Tracing;
 using System.IO;
@@ -32,8 +33,8 @@ namespace base64toRealm.Views
         {
             var photo = await Plugin.Media.CrossMedia.Current.TakePhotoAsync(new Plugin.Media.Abstractions.StoreCameraMediaOptions() { });
 
-            if (photo != null)
-                PhotoImage.Source = ImageSource.FromStream(() => { return photo.GetStream(); });
+            //if (photo != null)
+             //   PhotoImage.Source = ImageSource.FromStream(() => { return photo.GetStream(); });
 
             var stream = photo.GetStream();
             var bytes = new byte[stream.Length];
